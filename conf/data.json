@@ -2,7 +2,9 @@
 	"hosts":{
 		"racaljk":"https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts",
 		"yhosts":"https://raw.githubusercontent.com/vokins/yhosts/master/hosts",
-		"adaway":"https://raw.githubusercontent.com/aoccin/adaway/master/hosts"
+		
+      "hosts-mobile":"https://raw.githubusercontent.com/wangchunming/2017hosts/master/hosts-mobile",
+      "hosts-pc":"https://raw.githubusercontent.com/wangchunming/2017hosts/master/hosts-pc"
 	},
 	"DNSMasq":"I'm too lazy, you know",
 	"jsonb64":"https://raw.githubusercontent.com/dowsnature/dowsDNS/master/data/wrcd.base64"
