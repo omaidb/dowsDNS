@@ -32,9 +32,10 @@
 ### 更改 DNS 域名服务器
 1. 将 `conf/config.json 中的 Local_dns_server` 的值改为电脑的 `127.0.0.1`
 
-2. 在 `/etc/resolvconf/resolv.conf.d/base` 里添加 `nameserver 127.0.0.1`
+2. 在 `/etc/resolvconf/resolv.conf.d/hade` 里添加 `nameserver 127.0.0.1`
 
-3. `sudo resolvconf -u`
+3. sudo apt install resolvconf`或sudo apt install openresolv
+   然後刷新dns sudo resolvconf -u`
 
 4. `sudo systemctl restart network-manager.service`
 
